@@ -4,9 +4,12 @@
 
 ## 运行步骤
 
-1. 安装所需的Python库：
+1. 创建运行所需的环境：
 ```bash
-pip install pygame opencv-python numpy dlib Pillow
+conda create -n rls python=3.11
+conda activate rls
+pip install pygame opencv-python numpy Pillow
+conda install -c conda-forge dlib
 ```
 
 2. 下载资源文件：
